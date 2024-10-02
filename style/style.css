@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+}
+
+nav img{
+    width: 140px;
+    height: 66px;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color:  #1D1E25;
+}
+
+
+.nav_contact{
+    width: 120px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.nav_contact span{
+    margin-right: 5px;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.header_right{
+    padding: 90px 0;
+}
+
+
+.header_img1{
+    width: 420px;
+    height: 346px;
+    position: relative;
+}
+
+.header_img1 h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    
+}
+
+.header_img2{
+    width: 214px;
+    height: 220px;
+    position: absolute;
+    background-color: white ;
+    top: -80px;
+    right: -90px;
+}
+
+.header_img2 h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    
+}
+
+.header_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:40px;
+}
+
+.header_left h1{
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -3px;
+    text-align: left;
+     color: #1D1E25;   
+}
+
+.header_left p{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: left;
+    
+}
+
+.header_p{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: start;
+}
+
+.header_p div{
+    margin: 14px 8px;
+    width: 75px;
+    height: 2px;
+    background-color: #1D1E25;
+}
+
+.header_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.header_btn input{
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 0 0 7px 0;
+}
+
+.header_btn button{
+    width: 175px; 
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    color: white;
+    background-color: #1D1E25;
+    
+}
+
+.main_head{
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_head h1{
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: white;
+    
+}
+
+.main_head p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #7E8492;    
+}
+
+.main_items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.main_item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main{
+    background-color: #1D1E25;
+    padding: 30px 0;
+}
+
+.main_item h1{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: white;
+}
+
+.main_item p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #7E8492;
+    
+}
+
+.passion{
+    width: 100%;
+    display: flex;
+    padding: 90px 0;
+    gap: 70px;
+}
+
+.passion_items h1{
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #1D1E25;
+    padding-bottom: 40px;
+    
+}
+
+.passion_items img{
+    width: 585px;
+    height: 651px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.passion_item img{
+    width: 24px;
+    height: 24px;
+}
+
+.passion_items p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #7E8492;
+}
+
+.passion_item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.passion_item p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #1D1E25;
+    
+}

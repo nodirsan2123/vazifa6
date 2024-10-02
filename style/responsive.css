@@ -1,0 +1,68 @@
+@media(max-width:767px) {
+    .nav_items{
+        display: none;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .header_img1{
+        width: 294px;
+        height: 208px;
+        
+    }
+
+    .header_img1 h1{
+        font-size: 16.05px;
+        font-weight: 700;
+        line-height: 24.07px;
+        letter-spacing: -0.401169091463089px;
+        text-align: left;
+        
+    }
+
+    .header_btn input{
+        width: 108px;
+        height: 36px;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+        border-radius: 100px;
+    }
+
+    .main_items{
+        flex-direction: column;
+    }
+    
+    .main_item{
+        width: 100%;
+    }
+
+    .main_head h1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        
+    }
+
+    .main_item h1{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;        
+    }
+
+    .passion{
+        flex-direction: column;
+    }
+
+    .passion_items img{
+        width: 335px;
+        height: 374px;
+        
+    }
+
+    .passion_item img{
+        width: 24px;
+        height: 24px;
+    }
+}
